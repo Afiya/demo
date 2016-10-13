@@ -3,14 +3,14 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" 
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "addition2002" version = "1.0.0.1">
    
-   <name>Addition</name>
+   <name>Nav Bar</name>
    
    <description>
-      Addition
+      Nav Bar
    </description>
    
    <author href = "http://ateektradersknp.com" email = "jameelk99@gmail.com">
-      Addition
+      Nav Bar
    </author>
    
    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
