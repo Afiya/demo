@@ -28,6 +28,19 @@ $(document).ready(function(){
 			});
 });
   </script>
+  
+<style>
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	
+    padding: 3px;
+}
+
+.form-control {
+    font-size: 12px;
+    height: 30px;
+    padding: 2px;
+}
+</style>
 </head>
 <body>
 
@@ -64,15 +77,15 @@ $(document).ready(function(){
     <tr class="bg-success">
       <td>First Number</td>
       <td>
-        <input class="form-control 2TframePriceCalculation" id="n1" type="text" placeholder="Length">
+        <input class="form-control 2TframePriceCalculation" id="n1" type="number" placeholder="Length">
       </td>
       
       <td>
-        <input class="form-control 2TframePriceCalculation" id="n2" type="text" placeholder="Height">
+        <input class="form-control 2TframePriceCalculation" id="n2" type="number" placeholder="Height">
       </td>
       
       <td>
-        <input class="form-control" id="n22" type="text">
+        <input class="form-control" id="n22" type="number">
       </td>
       
       <td><span class="result"></span></td>
@@ -81,15 +94,15 @@ $(document).ready(function(){
     <tr class="bg-info">
       <td>Second Number</td>
       <td>
-        <input class="form-control" id="n222" type="text"  placeholder="">
+        <input class="form-control" id="n222" type="number"  placeholder="">
       </td>
       
       <td>
-        <input class="form-control" id="n11" type="text">
+        <input class="form-control" id="n11" type="number">
       </td>
       
       <td>
-        <input class="form-control" id="n22" type="text">
+        <input class="form-control" id="n22" type="number">
       </td>
       
       <td>Result</td>
@@ -97,15 +110,15 @@ $(document).ready(function(){
     <tr class="bg-warning">
       <td>First Number</td>
       <td>
-        <input class="form-control" id="n3" type="text">
+        <input class="form-control" id="n3" type="number">
       </td>
       
       <td>
-        <input class="form-control" id="n11" type="text">
+        <input class="form-control" id="n11" type="number">
       </td>
       
       <td>
-        <input class="form-control" id="n22" type="text">
+        <input class="form-control" id="n22" type="number">
       </td>
       
       <td>Result</td>
